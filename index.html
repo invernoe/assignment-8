@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <main class="min-vh-100 d-flex flex-column align-items-center text-center p-5 gap-5">
+        <h1>Quote of the Day</h1>
+        <h2>Press the button below to recieve a random quote!</h2>
+        <button id="newQuoteBtn" class="btn btn-primary px-5 py-3" onclick="generateQuote('quoteText', 'quoteAuthor')">New Quote</button>
+        <h4 id="quoteText"></h4>
+        <h5 id="quoteAuthor"></h5>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
